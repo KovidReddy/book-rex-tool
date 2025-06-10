@@ -7,4 +7,4 @@ for post in posts:
     print(post_data)
     comments = reddit.get_comments(post.id)
     for comment in comments:
-        print(comment.body)
+        print(comment)
